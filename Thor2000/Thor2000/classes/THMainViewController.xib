@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="THMainViewController">
             <connections>
+                <outlet property="contentView" destination="0Xb-7l-PBb" id="PK3-Ed-f7K"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,17 +18,30 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cJ-BC-xA2">
-                    <rect key="frame" x="189" y="311" width="36" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWB-LZ-ECx">
+                    <rect key="frame" x="0.0" y="44" width="414" height="104"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="104" id="Fso-vD-DCb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xb-7l-PBb">
+                    <rect key="frame" x="0.0" y="148" width="414" height="714"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="0Xb-7l-PBb" secondAttribute="bottom" id="16h-c3-x5s"/>
+                <constraint firstItem="EWB-LZ-ECx" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="7H2-fn-Xaw"/>
+                <constraint firstItem="0Xb-7l-PBb" firstAttribute="top" secondItem="EWB-LZ-ECx" secondAttribute="bottom" id="AIP-AJ-xVl"/>
+                <constraint firstItem="0Xb-7l-PBb" firstAttribute="trailing" secondItem="EWB-LZ-ECx" secondAttribute="trailing" id="Q95-9U-txP"/>
+                <constraint firstItem="0Xb-7l-PBb" firstAttribute="leading" secondItem="EWB-LZ-ECx" secondAttribute="leading" id="TVM-x9-7b5"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="EWB-LZ-ECx" secondAttribute="trailing" id="ltp-GR-08C"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="top" secondItem="EWB-LZ-ECx" secondAttribute="top" id="pB5-gS-kCA"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="139" y="135"/>
+            <point key="canvasLocation" x="137.68115942028987" y="134.59821428571428"/>
         </view>
     </objects>
 </document>

@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface THMainViewController : THBaseViewController
 
+
+
+
+@property (weak, nonatomic) IBOutlet UIView *contentView;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

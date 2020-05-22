@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35D20F92ADA8B77B77A2C63B /* libPods-Thor2000.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 514FBE1BBA240891858EE360 /* libPods-Thor2000.a */; };
 		50883A55246DA5610007A726 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50883A54246DA5610007A726 /* AppDelegate.m */; };
 		50883A5B246DA5610007A726 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50883A5A246DA5610007A726 /* ViewController.m */; };
 		50883A5E246DA5610007A726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50883A5C246DA5610007A726 /* Main.storyboard */; };
@@ -19,6 +20,11 @@
 		50883A93246DA5F00007A726 /* THBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50883A91246DA5F00007A726 /* THBaseViewController.xib */; };
 		50883A97246E3B210007A726 /* THMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50883A95246E3B210007A726 /* THMainViewController.m */; };
 		50883A98246E3B210007A726 /* THMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50883A96246E3B210007A726 /* THMainViewController.xib */; };
+		50883A9C246E3F5E0007A726 /* THMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50883A9B246E3F5E0007A726 /* THMainView.m */; };
+		50883AA0246E67520007A726 /* THItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50883A9F246E67520007A726 /* THItemModel.m */; };
+		50883AA3246E67CD0007A726 /* THHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 50883AA2246E67CD0007A726 /* THHandle.m */; };
+		50883AA6246E81D50007A726 /* THBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50883AA5246E81D50007A726 /* THBaseView.m */; };
+		50883AA9246E81E30007A726 /* THItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50883AA8246E81E30007A726 /* THItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,22 @@
 		50883A94246E3B210007A726 /* THMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THMainViewController.h; sourceTree = "<group>"; };
 		50883A95246E3B210007A726 /* THMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THMainViewController.m; sourceTree = "<group>"; };
 		50883A96246E3B210007A726 /* THMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THMainViewController.xib; sourceTree = "<group>"; };
+		50883A9A246E3F5E0007A726 /* THMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THMainView.h; sourceTree = "<group>"; };
+		50883A9B246E3F5E0007A726 /* THMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THMainView.m; sourceTree = "<group>"; };
+		50883A9E246E67520007A726 /* THItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THItemModel.h; sourceTree = "<group>"; };
+		50883A9F246E67520007A726 /* THItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THItemModel.m; sourceTree = "<group>"; };
+		50883AA1246E67CD0007A726 /* THHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THHandle.h; sourceTree = "<group>"; };
+		50883AA2246E67CD0007A726 /* THHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THHandle.m; sourceTree = "<group>"; };
+		50883AA4246E81D50007A726 /* THBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THBaseView.h; sourceTree = "<group>"; };
+		50883AA5246E81D50007A726 /* THBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THBaseView.m; sourceTree = "<group>"; };
+		50883AA7246E81E30007A726 /* THItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THItemView.h; sourceTree = "<group>"; };
+		50883AA8246E81E30007A726 /* THItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THItemView.m; sourceTree = "<group>"; };
+		50883AAA246E825D0007A726 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		50883AAB246E82840007A726 /* THCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THCommonHeader.h; sourceTree = "<group>"; };
+		50883AAC246E8F810007A726 /* THColorHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THColorHeader.h; sourceTree = "<group>"; };
+		514FBE1BBA240891858EE360 /* libPods-Thor2000.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Thor2000.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5770A7AE93516C5E937BC3D3 /* Pods-Thor2000.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thor2000.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thor2000/Pods-Thor2000.release.xcconfig"; sourceTree = "<group>"; };
+		8E0B9AEF971A2DC55B1D0551 /* Pods-Thor2000.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thor2000.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thor2000/Pods-Thor2000.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D20F92ADA8B77B77A2C63B /* libPods-Thor2000.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3386709E12718D5461C8AF5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B9AEF971A2DC55B1D0551 /* Pods-Thor2000.debug.xcconfig */,
+				5770A7AE93516C5E937BC3D3 /* Pods-Thor2000.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		50883A47246DA5610007A726 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +127,8 @@
 				50883A6E246DA5630007A726 /* Thor2000Tests */,
 				50883A79246DA5630007A726 /* Thor2000UITests */,
 				50883A51246DA5610007A726 /* Products */,
+				3386709E12718D5461C8AF5F /* Pods */,
+				724D91BB3B2268672F6CC921 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +181,8 @@
 		50883A88246DA57F0007A726 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				50883A9D246E67440007A726 /* models */,
+				50883A99246E3EC30007A726 /* views */,
 				50883A94246E3B210007A726 /* THMainViewController.h */,
 				50883A95246E3B210007A726 /* THMainViewController.m */,
 				50883A96246E3B210007A726 /* THMainViewController.xib */,
@@ -157,11 +193,46 @@
 		50883A89246DA5960007A726 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				50883AAA246E825D0007A726 /* PrefixHeader.pch */,
+				50883AAB246E82840007A726 /* THCommonHeader.h */,
+				50883AAC246E8F810007A726 /* THColorHeader.h */,
 				50883A8F246DA5F00007A726 /* THBaseViewController.h */,
 				50883A90246DA5F00007A726 /* THBaseViewController.m */,
 				50883A91246DA5F00007A726 /* THBaseViewController.xib */,
+				50883AA4246E81D50007A726 /* THBaseView.h */,
+				50883AA5246E81D50007A726 /* THBaseView.m */,
+				50883AA1246E67CD0007A726 /* THHandle.h */,
+				50883AA2246E67CD0007A726 /* THHandle.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		50883A99246E3EC30007A726 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				50883A9A246E3F5E0007A726 /* THMainView.h */,
+				50883A9B246E3F5E0007A726 /* THMainView.m */,
+				50883AA7246E81E30007A726 /* THItemView.h */,
+				50883AA8246E81E30007A726 /* THItemView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		50883A9D246E67440007A726 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				50883A9E246E67520007A726 /* THItemModel.h */,
+				50883A9F246E67520007A726 /* THItemModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		724D91BB3B2268672F6CC921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				514FBE1BBA240891858EE360 /* libPods-Thor2000.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50883A7F246DA5630007A726 /* Build configuration list for PBXNativeTarget "Thor2000" */;
 			buildPhases = (
+				8B3E84807C12FCB5348E9E81 /* [CP] Check Pods Manifest.lock */,
 				50883A4C246DA5610007A726 /* Sources */,
 				50883A4D246DA5610007A726 /* Frameworks */,
 				50883A4E246DA5610007A726 /* Resources */,
+				C5CF0BC57B30F8D694783061 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,16 +365,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B3E84807C12FCB5348E9E81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thor2000-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CF0BC57B30F8D694783061 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thor2000/Pods-Thor2000-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thor2000/Pods-Thor2000-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50883A4C246DA5610007A726 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50883AA0246E67520007A726 /* THItemModel.m in Sources */,
+				50883AA9246E81E30007A726 /* THItemView.m in Sources */,
+				50883AA6246E81D50007A726 /* THBaseView.m in Sources */,
 				50883A5B246DA5610007A726 /* ViewController.m in Sources */,
 				50883A55246DA5610007A726 /* AppDelegate.m in Sources */,
 				50883A66246DA5630007A726 /* main.m in Sources */,
 				50883A97246E3B210007A726 /* THMainViewController.m in Sources */,
+				50883AA3246E67CD0007A726 /* THHandle.m in Sources */,
 				50883A92246DA5F00007A726 /* THBaseViewController.m in Sources */,
+				50883A9C246E3F5E0007A726 /* THMainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,10 +585,12 @@
 		};
 		50883A80246DA5630007A726 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0B9AEF971A2DC55B1D0551 /* Pods-Thor2000.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBPYVNBPCC;
+				GCC_PREFIX_HEADER = /Users/ledon/Documents/programming/Thor_ios/Thor2000/Thor2000/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = Thor2000/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -485,10 +604,12 @@
 		};
 		50883A81246DA5630007A726 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5770A7AE93516C5E937BC3D3 /* Pods-Thor2000.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBPYVNBPCC;
+				GCC_PREFIX_HEADER = /Users/ledon/Documents/programming/Thor_ios/Thor2000/Thor2000/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = Thor2000/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -545,6 +666,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBPYVNBPCC;
+				GCC_PREFIX_HEADER = /Users/ledon/Documents/programming/Thor_ios/Thor2000/Thor2000/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = Thor2000UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -563,6 +685,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBPYVNBPCC;
+				GCC_PREFIX_HEADER = /Users/ledon/Documents/programming/Thor_ios/Thor2000/Thor2000/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = Thor2000UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
